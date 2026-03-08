@@ -1,0 +1,20 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:label="SannMusic"
+        android:name="${applicationName}"
+        android:icon="@mipmap/ic_launcher">
+        ```
+
+---
+
+### Langkah Eksekusi & Cara Membuatnya Siap Instal di GitHub
+
+Agar orang bisa langsung mendownload dan menginstal APK-nya dari GitHub Anda (tanpa perlu tahu koding), ikuti langkah ini:
+
+**Langkah 1: Build APK (Jadikan File Instalasi)**
+Buka terminal/CMD di dalam folder proyek Flutter Anda, lalu jalankan perintah ini:
+```bash
+flutter build apk --release
